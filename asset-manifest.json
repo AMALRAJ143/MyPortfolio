@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/AMALRAJ143/MyPortfolio/static/css/main.aa350f67.css",
+    "main.js": "/AMALRAJ143/MyPortfolio/static/js/main.de9f8745.js",
+    "static/js/103.2b2fbf45.chunk.js": "/AMALRAJ143/MyPortfolio/static/js/103.2b2fbf45.chunk.js",
+    "static/js/787.ae0246fb.chunk.js": "/AMALRAJ143/MyPortfolio/static/js/787.ae0246fb.chunk.js",
+    "static/media/collage2.png": "/AMALRAJ143/MyPortfolio/static/media/collage2.840c914399177f5bdb05.png",
+    "static/media/primeicons.svg": "/AMALRAJ143/MyPortfolio/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/schoool2.png": "/AMALRAJ143/MyPortfolio/static/media/schoool2.d666b0d44497c2631e7f.png",
+    "static/media/myImage-3.png": "/AMALRAJ143/MyPortfolio/static/media/myImage-3.0d523023b75b6f87dbc3.png",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/AMALRAJ143/MyPortfolio/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/AMALRAJ143/MyPortfolio/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "static/media/primeicons.eot": "/AMALRAJ143/MyPortfolio/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/AMALRAJ143/MyPortfolio/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/AMALRAJ143/MyPortfolio/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/Amalraj resume.pdf": "/AMALRAJ143/MyPortfolio/static/media/Amalraj resume.1b883d6face209936d0a.pdf",
+    "static/media/primeicons.woff2": "/AMALRAJ143/MyPortfolio/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/school.jpeg": "/AMALRAJ143/MyPortfolio/static/media/school.17ae066e9f68de22aa85.jpeg",
+    "index.html": "/AMALRAJ143/MyPortfolio/index.html",
+    "main.aa350f67.css.map": "/AMALRAJ143/MyPortfolio/static/css/main.aa350f67.css.map",
+    "main.de9f8745.js.map": "/AMALRAJ143/MyPortfolio/static/js/main.de9f8745.js.map",
+    "103.2b2fbf45.chunk.js.map": "/AMALRAJ143/MyPortfolio/static/js/103.2b2fbf45.chunk.js.map",
+    "787.ae0246fb.chunk.js.map": "/AMALRAJ143/MyPortfolio/static/js/787.ae0246fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa350f67.css",
+    "static/js/main.de9f8745.js"
+  ]
+}
