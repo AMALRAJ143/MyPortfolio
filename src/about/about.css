@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#about-container{
+    width: 90%;
+    height: 85vh;
+    margin: 60px auto;
+    padding: 20px 0;
+}
+#about-content{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+
+}
+#about-container h1{
+    text-align: center;
+    margin: 20px auto;
+    color: brown;
+}
+#about-details{
+    padding: 20px;
+    font-size: 20px;
+    width: 60%;
+    height: 450px;
+    text-align: justify;
+}
+#skill-details{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    align-items: center;
+    border-radius: 20px ;
+}
+#chart-container{
+    width: 400px;
+    position: relative;
+}
+.chart-label {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+  }
+.cv{
+    display: inline-block;
+    margin: 50px 10px;
+    padding: 10px;
+    background-color: white;
+    color: brown;
+    text-decoration: none;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 2px 2px brown;
+}
+
+/* mobile view  */
+
+@media screen and (max-width:767px) {
+    #about-container{
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        padding: 20px 0;
+    }
+    #about-content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #about-container h1{
+        margin: 10px auto;
+    }
+    #about-details{
+        padding: 20px;
+        font-size: 12px;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+    }
+    #skill-details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        align-items: center;
+        border: none;
+        border-radius: 0px;
+        padding-top: 50px;
+    }
+    .chart-label {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: brown;
+      }
+      #chart-container{
+        width: 300px;
+    }
+}
+
+
+/* tab view  */ 
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    #about-container{
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        padding: 20px 0;
+    }
+    #about-content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #about-container h1{
+        margin: 20px auto;
+    }
+    #about-details{
+        padding: 20px;
+        font-size: 16px;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+    }
+    #skill-details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        align-items: center;
+        border: none;
+        border-radius: 0px;
+        padding-top: 50px;
+    }
+    .chart-label {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: brown;
+      }
+      #chart-container{
+        width: 350px;
+    }
+}
+
+

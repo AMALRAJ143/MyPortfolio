@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container-1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: black;
+    
+
+}
+.name{
+    font-size:70px;
+    font-weight: 700;
+    color: brown;
+}
+
+#content{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    height: 100%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#left-content{
+    width: 100%;
+    text-align: left;
+    line-height: 50px;
+}
+#right-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.circle{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    transform: rotate(56deg);
+    background-color:beige;
+}
+.circle-2{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    /* box-shadow: 2px 2px 2px 1px brown; */
+    transform: rotate(20deg);
+    border: 2px solid wheat;
+    background-color:white;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+#myImage{
+    margin-left: 60px;
+    width: 80%;
+    height: 110%;
+    transform: rotate(-70deg);
+}
+
+.quote{
+    font-size: 14px;
+    color: var(--secondaryFont);
+}
+#anim{
+    animation: anim 5s linear infinite;
+}
+@keyframes anim {
+    0%{
+        color:beige;
+    }
+    0%,10%{
+        color:rgba(165, 42, 42, 0.596);  
+    }
+    10%,80%{
+        color: rgba(189, 90, 90, 0.568);
+        /* text-shadow:0 0 5px #08cde7;   */
+    }
+    80%,90%{
+        color:brown;
+    }
+    90%,100%{
+        color:rgba(165, 42, 42, 0.836);
+    }
+}
+#icons{
+    width: 100%;
+    font-size: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fa-linkedin{
+    padding: 10px;
+}
+.fa-linkedin:hover{
+    background: linear-gradient(to right, #0077B5, #0A66C2);
+    background-clip: text;
+    color: transparent;
+}
+.fa-facebook{
+    padding: 10px;
+}
+.fa-facebook:hover{
+    background: linear-gradient(to right, #3b5998, #1877f2);
+    background-clip: text;
+    color: transparent;
+}
+.fa-instagram{
+    padding: 10px;
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4, #3D4E96);
+    background-clip: text;
+    color: transparent;
+}
+.fa-envelope{
+    padding: 10px;
+}
+.fa-envelope:hover{
+    background: linear-gradient(to bottom, #ff0000, #ffffff);
+    background-clip: text;
+    color: transparent;
+}
+
+/* mobile view  */
+
+@media only screen and (max-width:767px){
+    #container-1{
+        overflow: hidden;
+    }
+    #content{
+        margin:120px auto;
+    }
+    #left-content{
+        width: 100%;
+        text-align: center;
+        line-height:35px;
+    }
+    .h1Text{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .quote{
+        font-size: 10px;
+        line-height: 10px;
+        text-indent: 10px;
+    }
+    #content{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+    #right-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle{
+        margin-top: 20px;
+        transform: rotate(30deg);
+        width: 180px;
+        height: 180px;
+    }
+    .circle-2{
+        width: 170px;
+        height: 170px;
+    }
+    #myImage{
+        transform: rotate(-50deg);
+        margin-top: 10px;
+        width: 80%;
+        height: 110%;
+    }
+}
+
+/* tab view  */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    #container-1{
+        overflow: hidden;
+    }
+    #left-content{
+        width: 100%;
+        text-align: center;
+        line-height:35px;
+    }
+    .h1Text{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .name{
+        font-size: 45px;
+    }
+    .quote{
+        font-size: 14px;
+        line-height: 25px;
+        text-indent: 10px;
+    }
+    #content{
+        margin-top: 150px;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 50px;
+    }
+    #right-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle{
+        margin-top: 20px;
+        transform: rotate(30deg);
+        width: 220px;
+        height: 220px;
+    }
+    .circle-2{
+        width: 200px;
+        height: 200px;
+        /* transform: rotate(20deg); */
+    }
+    #myImage{
+        transform: rotate(-50deg);
+        margin-top: 10px;
+        width: 80%;
+        height: 110%;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1300px){
+    #container-1{
+        overflow: hidden;
+    }
+    #content{
+        margin:120px auto;
+    }
+    #left-content{
+        width: 100%;
+        text-align: left;
+        line-height:45px;
+    }
+    .h1Text{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 60px;
+    }
+    .quote{
+        font-size: 16px;
+        line-height: 18px;
+        text-indent: 10px;
+    }
+    #myImage{
+        width: 150px;
+        height: 150px;
+    }
+
+    #content{
+        margin-top: 120px;
+        height: auto;
+        gap: 20px;
+    }
+    .circle{
+        margin-top: 80px;
+        transform: rotate(30deg);
+        width: 240px;
+        height: 240px;
+    }
+    .circle-2{
+        width: 220px;
+        height: 220px;
+        transform: rotate(40deg);
+    }
+    #myImage{
+        transform: rotate(-70deg);
+        margin-top: 10px;
+        width: 80%;
+        height: 110%;
+    }
+}
